@@ -1,5 +1,5 @@
 # nbaplus-server
-Server of The NBAPlus APP 
+Server of The NBAPlus APP 。
 这是NBAPlus 的Web后台服务器部分，用python语言实现，部署在新浪SAE平台。
 由于是初学python并且是第一次搭建后台，所以可能有很多不规范的地方,这里主要是提供一种自己做APP时搭建服务器部分的思路。
 希望能帮到有这部分需要但不知如何入手的人，更希望对着比较了解的人能提供一些建议。
