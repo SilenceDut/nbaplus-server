@@ -1,0 +1,17 @@
+name: nbaplus
+version: 1
+libraries:
+- name: lxml
+  version: "2.3.4"
+  
+cron:
+
+- url:/backend/cron/stat/update
+  schedule:"*/10 6-18 * * *"
+  
+- url:/backend/cron/news/update
+  schedule:"*/30 5-23 * * *"
+
+- url:/backend/cron/blog/update
+  schedule:"*/59 6-23 * * *"
+  
